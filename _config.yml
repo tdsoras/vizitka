@@ -1,0 +1,54 @@
+name: СОРАС
+description: Торговый дом Сорас
+contacts:
+  - link: 'tel:+74912252695'
+    name: +7 4912 25 26 95
+    icon: tel
+    description: телефон
+
+  - link: 'tel:+79109012525'
+    name: +7 910 901 25 25
+    icon: tel
+    description: телефон
+
+  - link: '/kontakty.html'
+    name: 'Контакты'
+    icon: map
+    description: карта
+
+blocks:    
+  - name: Теплоизоляция
+    img: 1s.jpg
+    position : topright
+    link: '#'
+
+  - name: Кровельные материалы
+    img: 2s.jpg
+    position : bottomright
+    link: '#'
+
+  - name: Металлочерепица
+    img: 3s.jpg
+    position : topright
+    link: '#'
+
+  - name: Гидроизоляция
+    img: 4s.jpg
+    position : bottomright
+    link: '#'
+
+
+theme: null
+sass:
+  sass_dir: _sass
+  style: compressed
+collections:
+  pages:
+    permalink: '/:collection/:title'
+  slideshow:
+    output: false
+plugins_dir:
+  - jekyll-sass-converter
+defaults:
+  - values:
+      layout: page

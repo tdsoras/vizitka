@@ -1,0 +1,9 @@
+<ul class="callmenow-small">
+  {% for contact in site.contacts %}
+  <li>
+    <a href="{{ contact.link }}" alt="{{ contact.description }}" title="{{ contact.description }}">
+      <span class="icon {{ contact.icon }}"></span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

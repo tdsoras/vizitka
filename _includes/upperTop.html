@@ -1,0 +1,29 @@
+<a href="/" alt="home" flex column>
+  <img
+    src="/assets/soras_logo6.svg"
+    alt="logo"
+    class="main-logo"
+    loading="lazy"
+    hide="mobile"
+  />
+  <img
+    src="/assets/soras_logo_small.svg"
+    alt="logo"
+    class="main-logo"
+    loading="lazy"
+    hide="wide"
+  />
+</a>
+<ul column list='none' text='right'>
+  {% for contact in site.contacts %}
+  <li>
+    <a
+      href="{{ contact.link }}"
+      alt="{{ contact.description }}"
+      title="{{ contact.description }}"
+    >
+      {{ contact.description }}: {{ contact.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+<ul list='none' row>
+  {% for banner in site.blocks %}
+  <li column>
+    <a
+      flex
+      column
+      position="{{ banner.position }}"
+      relative
+      href="{{ banner.link }}"
+      title="{{  banner.name }}"
+    >
+        <span>{{ banner.name }}</span>  
+        <img src="/assets/{{ banner.img }}" alt="{{ banner.name }}" />
+    </a>
+  </li>
+  {% endfor %}
+</ul>
