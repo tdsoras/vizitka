@@ -11,10 +11,18 @@ contacts:
     icon: tel
     description: телефон
 
-  - link: '/kontakty.html'
+  - link: 'kontakty.html'
     name: 'Контакты'
     icon: map
     description: карта
+
+  - link: 'https://t.me/tdsoras'
+    name: 'телеграм'
+    icon: telegram
+    description: 
+
+
+
 
 blocks:    
   - name: Теплоизоляция
