@@ -1,17 +1,41 @@
+[font] {
+    font-family: Pxa, sans-serif;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'Pxa';
+    src: url('assets/pxa_2.woff2') format('woff2'),
+        url('assets/pxa_2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body{
 	font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
 	letter-spacing:+0.5px;
+  color: #636363;
 }
 [wrapper] p {
-  text-indent: 3rem;
-  // margin: 0.6rem 0;
-  margin: 0;
+  // text-indent: 3rem;
+  margin: 0.6rem 0;
+  // margin: 0;
 }
 [wrapper] ul {
   margin: 0;
+  padding: 0;
 }
-
+[content] ul{
+  margin-left: 2rem;
+}
 
 [wrapper]{
   max-width: 70rem;
@@ -84,7 +108,38 @@ body{
   bottom: 0;
   right: 0;
 }
-
+[blockymenu] li {
+  padding: 3rem 2rem;
+  margin: 0.5rem;
+  text-align: center;
+  position: relative;
+  font-size: 1.2rem;
+}
+[blockymenu] li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border: solid 3px;
+}
+[shade="red"]{
+  background-color: #e31e24;
+  color: #fff;
+}
+[shade="gray"]{
+  background-color: #5b5b5b;
+  color: #fff;
+}
+[shade]>a{
+  text-decoration: none;
+  color:inherit;
+}
+[width="100%"]{
+  width: 100%;
+}
 
 [column]>img {
   width: 100%;

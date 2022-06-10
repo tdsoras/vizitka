@@ -21,29 +21,25 @@ contacts:
     icon: telegram
     description: 
 
-
+  - link: ''
+    name: 'время работы'
+    icon: time
+    description:  '9-17'
 
 
 blocks:    
   - name: Теплоизоляция
-    img: 1s.jpg
-    position : topright
+    shade : red
     link: '#'
 
   - name: Кровельные материалы
-    img: 2s.jpg
-    position : bottomright
+    shade : gray
     link: '#'
 
-  - name: Металлочерепица
-    img: 3s.jpg
-    position : topright
+  - name:  Гидроизоляция
+    shade : red
     link: '#'
 
-  - name: Гидроизоляция
-    img: 4s.jpg
-    position : bottomright
-    link: '#'
 
 
 theme: null

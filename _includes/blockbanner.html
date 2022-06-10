@@ -1,16 +1,14 @@
-<ul list='none' row>
+<ul list='none' row width='100%'>
   {% for banner in site.blocks %}
-  <li column>
+  <li column shade="{{ banner.shade }}" >
     <a
       flex
       column
-      position="{{ banner.position }}"
       relative
       href="{{ banner.link }}"
       title="{{  banner.name }}"
     >
         <span>{{ banner.name }}</span>  
-        <img src="assets/{{ banner.img }}" alt="{{ banner.name }}" />
     </a>
   </li>
   {% endfor %}
