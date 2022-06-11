@@ -1,6 +1,7 @@
 <ul list='none' row width='100%'>
   {% for banner in site.blocks %}
   <li column shade="{{ banner.shade }}" >
+    {% if banner.link.size >1   %}
     <a
       flex
       column
@@ -10,6 +11,16 @@
     >
         <span>{{ banner.name }}</span>  
     </a>
+    {% else %}
+    <span
+      flex
+      column
+      relative
+    >
+        <span>{{ banner.name }}</span>  
+  </span>
+    {% endif %}
+
   </li>
   {% endfor %}
 </ul>

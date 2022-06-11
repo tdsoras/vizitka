@@ -3,12 +3,12 @@ description: Торговый дом Сорас
 contacts:
   - link: 'tel:+74912252695'
     name: +7 4912 25 26 95
-    icon: tel
+    icon: phone
     description: телефон
 
   - link: 'tel:+79109012525'
     name: +7 910 901 25 25
-    icon: tel
+    icon: phone
     description: телефон
 
   - link: 'kontakty.html'
@@ -30,11 +30,10 @@ contacts:
 blocks:    
   - name: Теплоизоляция
     shade : red
-    link: '#'
+    link: '#teplo'
 
   - name: Кровельные материалы
     shade : gray
-    link: '#'
 
   - name:  Гидроизоляция
     shade : red
