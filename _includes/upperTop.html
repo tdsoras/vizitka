@@ -29,11 +29,11 @@
     </a>
     {% else %}
     <span
-      href="{{ contact.link }}"
-      alt="{{ contact.description }}"
       title="{{ contact.description }}"
     >
-      {{ contact.description }}: {{ contact.name }}
+      <span icon="{{contact.icon}}"></span>
+      <span description> {{ contact.description }}: </span>  
+      <span linktitle> {{ contact.name }} </span>  
     </span>
     {% endif %}
   </li>
