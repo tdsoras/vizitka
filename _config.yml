@@ -22,15 +22,15 @@ contacts:
     description: 
 
   - link: ''
-    name: 'время работы'
+    name: 'время работы 9-17'
     icon: time
-    description:  '9-17'
+    description:  ''
 
 
 blocks:    
   - name: Теплоизоляция
     shade : red
-    link: '#teplo'
+    link: '#'
 
   - name: Кровельные материалы
     shade : gray
