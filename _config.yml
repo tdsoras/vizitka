@@ -26,6 +26,10 @@ contacts:
     icon: time
     description:  ''
 
+  - link: '#price'
+    name: 'Прайс'
+    icon: time
+    description:  ''
 
 blocks:    
   - name: Теплоизоляция
