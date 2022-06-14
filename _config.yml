@@ -27,8 +27,8 @@ contacts:
     description:  ''
 
   - link: '#price'
-    name: 'Прайс'
-    icon: time
+    name: 'Скачаты прайс'
+    icon: 
     description:  ''
 
 blocks:    
