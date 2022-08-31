@@ -8,7 +8,7 @@
 Телефон/факс: +7 (4912) 25-26-95  
 Телефон: +7 (910) 901-25-25  
 Время работы: с 9.00 до 17.00  
-Е-mail: [tdsoras@yandex.ru](mailto:mail@yandex.ru)
+Е-mail: [tdsoras@yandex.ru](mailto:tdsoras@yandex.ru)
 
 ## Расположение на карте склада
 
